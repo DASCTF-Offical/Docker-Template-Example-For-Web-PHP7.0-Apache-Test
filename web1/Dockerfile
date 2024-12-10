@@ -1,4 +1,4 @@
-FROM dasctfbase/web_php70_apache
+FROM ghcr.io/dasctf-offical/docker-template-for-web-php7.0-apache:main
 
 COPY src /var/www/html
 
